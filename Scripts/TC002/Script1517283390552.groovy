@@ -24,7 +24,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.firstrepublic.com/articles-insights/travel-gallery/upload/submitphoto/form')
 
-WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_Private Wealth Management'))
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_Photo Submission  First Republ/a_Private Wealth Management'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_Photo Submission  First Republ/img'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_Photo Submission  First Republ/a_Contact Us'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_Photo Submission  First Republ/a_Locations'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_Photo Submission  First Republ/a_Northern California'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_Photo Submission  First Republ/a_San Francisco'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_San Francisco  First Republic/h2_Transbay'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/Page_San Francisco  First Republic/a_View Hours  Details'))
 
 WebUI.closeBrowser()
 
@@ -32,9 +46,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.firstrepublic.com/articles-insights/travel-gallery/upload/submitphoto/form')
 
-WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_Business'))
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_Personal'))
 
-WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_Private Wealth Management (1)'))
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_Locations'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/div_locationsDrop'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_Northern California'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_East Bay'))
+
+WebUI.click(findTestObject('Page_Photo Submission  First Republ/a_View Hours  Details'))
 
 WebUI.closeBrowser()
 
